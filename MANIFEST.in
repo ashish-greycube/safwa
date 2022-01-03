@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include safwa *.css
+recursive-include safwa *.csv
+recursive-include safwa *.html
+recursive-include safwa *.ico
+recursive-include safwa *.js
+recursive-include safwa *.json
+recursive-include safwa *.md
+recursive-include safwa *.png
+recursive-include safwa *.py
+recursive-include safwa *.svg
+recursive-include safwa *.txt
+recursive-exclude safwa *.pyc
